@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://i.postimg.cc/MGW1DTJK/fondoaseguradora.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+  justify-content: center;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px; 
+}
+
+nav ul{
+  list-style: none;
+  display: inline-block;
+  padding:18px;
+}
+
+nav ul li{
+   float: left;
+   margin-top: 20px;
+}
+
+nav ul li a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 18px;
+}
+
+nav ul li a:hover{
+ background-color: #929fb3;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 10px; 
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  text-align-last: center;
+  font-size: 14px;
+  text-align: center;
+  
+}
+
+button {
+  background-color: #007bff;
+  color: black;
+  padding: 12px 20px; 
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+.cotizacion {
+  color: black;
+  text-align: center;
+
+}
+
+.historial-section {
+  margin-top: 20px; 
+}
+
+.Historial {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
